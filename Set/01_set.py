@@ -1,0 +1,11 @@
+s={10,20}
+s.update([4,5])
+# print(s)
+s.update([6,7],["python","Django"])
+# print(s)
+s.update(range(3))
+# print(s)
+print(s.discard(5))
+# print(s)
+s.remove(6)
+print(s)
